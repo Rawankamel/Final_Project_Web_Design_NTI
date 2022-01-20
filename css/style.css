@@ -1,0 +1,56 @@
+.position-sticky.top-0 {
+    background-color: white;
+}
+
+.navbar.position-sticky {
+    z-index: 2000;
+    background-color: white;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.card-group.position-absolute {
+    background-color: white;
+}
+
+.carousel-indicators {
+    flex-direction: column;
+    right: 0;
+    bottom: 12rem;
+    left: auto;
+    margin: 0;
+    text-align: center;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    opacity: 100;
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-indicators [data-bs-target].active {
+    border: 1px solid gray;
+    background-color: black;
+}
+
+.carousel-caption {
+    right: 10%;
+    bottom: 10rem;
+    left: 10%;
+}
+
+
+/* .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+
+    
+    top: 0%;
+    left: 100%;
+    background: white;
+    display: block;
+
+} */
