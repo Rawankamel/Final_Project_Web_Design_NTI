@@ -47,12 +47,12 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            HOME
+                            HOME <i class="fas fa-chevron-down"></i>
                 </a>
                         <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home 01</a>
-                                <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown2">
+                                Home 01 <i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0 show-ul" aria-labelledby="navbarDropdown2">
                                     <li><a class="dropdown-item" href="#">Home 11</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
@@ -71,7 +71,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            HEADERS
+                            HEADERS <i class="fas fa-chevron-down"></i>
                 </a>
                         <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Header Style 01</a></li>
@@ -91,7 +91,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        BLOG POST
+                        BLOG POST <i class="fas fa-chevron-down"></i>
                 </a>
                         <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Blog Grid</a></li>
@@ -111,7 +111,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICES
+                            SERVICES <i class="fas fa-chevron-down"></i>
                 </a>
                         <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Full Width</a></li>
@@ -131,7 +131,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            FEATURES
+                            FEATURES <i class="fas fa-chevron-down"></i>
                 </a>
                         <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Short Codes</a></li>
@@ -151,7 +151,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PAGES
+                            PAGES <i class="fas fa-chevron-down"></i>
                 </a>
                         <ul class="dropdown-menu border-0 border-top border-3 border-primary rounded-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Other Pages
@@ -180,35 +180,51 @@
     <!--Carousel-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators align-items-end me-5">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="position-absolute h-100 w-100 bg-dark bg-opacity-75"></div>
                 <img src="images/ecommerce-cover-2.jpg" class="d-block w-100" alt="slider-img">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>What You Do Today For People ?</h1>
+                    <h1 class="my-5">What You Do Today For People ?</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quasi perferendis vero numquam? Aperiam necessitatibus deserunt impedit. Totam, incidunt eaque.</p>
-                    <button type="button" class="btn btn-primary rounded-pill w-25">Get Start Now</button>
-                    <button type="button" class="btn btn-outline-light rounded-pill w-25">Contact Us</button>
+                    <button type="button" class="btn btn-primary rounded-pill w-25 mx-3 fs-4 my-5">Get Start Now</button>
+                    <button type="button" class="btn btn-outline-light rounded-pill w-25 mx-3 fs-4 my-5">Contact Us</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="position-absolute h-100 w-100 bg-dark bg-opacity-75"></div>
                 <img src="images/slider1.jpg" class="d-block w-100" alt="slider1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>What You Do Today For People ?</h1>
+                    <h1 class="my-5">What You Do Today For People ?</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quasi perferendis vero numquam? Aperiam necessitatibus deserunt impedit. Totam, incidunt eaque.</p>
+                    <button type="button" class="btn btn-primary rounded-pill w-25 mx-3 fs-4 my-5">Get Start Now</button>
+                    <button type="button" class="btn btn-outline-light rounded-pill w-25 mx-3 fs-4 my-5">Contact Us</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="position-absolute h-100 w-100 bg-dark bg-opacity-75"></div>
                 <img src="images/slider2.jpg" class="d-block w-100" alt="slider2">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>What You Do Today For People ?</h1>
+                    <h1 class="my-5">What You Do Today For People ?</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quasi perferendis vero numquam? Aperiam necessitatibus deserunt impedit. Totam, incidunt eaque.</p>
+                    <button type="button" class="btn btn-primary rounded-pill w-25 mx-3 fs-4 my-5">Get Start Now</button>
+                    <button type="button" class="btn btn-outline-light rounded-pill w-25 mx-3 fs-4 my-5">Contact Us</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="position-absolute h-100 w-100 bg-dark bg-opacity-75"></div>
+                <img src="images/slider3.jpg" class="d-block w-100" alt="slider3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="my-5">What You Do Today For People ?</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quasi perferendis vero numquam? Aperiam necessitatibus deserunt impedit. Totam, incidunt eaque.</p>
+                    <button type="button" class="btn btn-primary rounded-pill w-25 mx-3 fs-4 my-5">Get Start Now</button>
+                    <button type="button" class="btn btn-outline-light rounded-pill w-25 mx-3 fs-4 my-5">Contact Us</button>
                 </div>
             </div>
         </div>
@@ -228,12 +244,12 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <p class="col-6 col-md-3 text-secondary text-center">About Us</p>
+            <p class="col-6 col-md-3 text-secondary text-center d-none d-md-block">About Us</p>
         </div>
-        <div class="row py-5">
+        <div class="row py-5 gy-5">
             <div class="col-12 col-md-8 d-flex justify-content-end position-relative">
-                <div class="card-group flex-column w-50 justify-content-evenly position-absolute start-0 align-self-center shadow-lg w-25 py-3">
-                    <div class="card rounded-0 border-0">
+                <div class="card-group py-3 flex-column w-50 justify-content-evenly position-absolute start-0 align-self-center shadow-lg">
+                    <div class="card rounded-0 border-0 w-100">
                         <div class="row g-0 py-2">
                             <div class="col-md-3 card-icon text-center align-self-center">
                                 <i class="fas fa-bullhorn fs-2 p-0"></i>
@@ -247,7 +263,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card rounded-0 border-0">
+                    <div class="card rounded-0 border-0 w-100">
                         <div class="row g-0 py-2">
                             <div class="col-md-3 card-icon text-center align-self-center">
                                 <i class="fas fa-sliders-h fs-2 p-0"></i>
@@ -261,7 +277,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card rounded-0 border-0 ">
+                    <div class="card rounded-0 border-0 w-100">
                         <div class="row g-0 py-2">
                             <div class="col-md-3 card-icon text-center align-self-center">
                                 <i class="fas fa-thumbs-up fs-2 p-0"></i>
@@ -275,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card rounded-0 border-0 ">
+                    <div class="card rounded-0 border-0 w-100">
                         <div class="row g-0 py-2">
                             <div class="col-md-3 card-icon text-center align-self-center">
                                 <i class="fas fa-bullhorn fs-2 p-0"></i>
@@ -295,7 +311,7 @@
                 <img src="images/abt-3.jpg">
             </div>
 
-            <div class="col-12 col-md-4 d-flex flex-column justify-content-between text-secondary">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-around text-secondary">
                 <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam
                     remrutrumDorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis.</p>
                 <p>Dorem ipsum dolor sit amet. consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam
