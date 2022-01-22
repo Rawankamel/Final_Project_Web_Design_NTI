@@ -1,3 +1,19 @@
+.white-font {
+    color: white;
+}
+
+.white_bg {
+    background-color: white;
+}
+
+.ligt-gray {
+    background-color: rgb(243, 240, 240);
+}
+
+.bg-darkgray {
+    background: rgb(48, 47, 47);
+}
+
 .position-sticky.top-0 {
     background-color: white;
 }
@@ -51,29 +67,21 @@
     height: 70px;
 }
 
-.inner-dropdown:hover .show-ul {
+.show-li-ul:hover .show-ul {
     top: 0%;
     right: 100%;
     background: white;
     display: block;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0px;
-    margin: 0 0.5rem;
     animation: fadeInLeft;
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s;
     /* don't forget to set a duration! */
 }
 
-.white_bg {
-    background-color: white;
-}
-
-.ligt-gray {
-    background-color: rgb(243, 240, 240);
+.drop-down-parent:hover .dropdown-menu-parent {
+    display: block;
+    animation: fadeInLeft;
+    animation-duration: 1s;
 }
 
 .bd-icone {
@@ -111,25 +119,91 @@ body {
     background-origin: border-box;
 }
 
-.white-font {
-    color: white;
+.card-abslute1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.parent_card_fadeout1:hover .card-abslute1 {
+    animation: fadeInUp;
+    animation-duration: 0.3s;
+    display: block;
 }
 
 
-/* .img-bg {
+/*  */
+
+.img-shadw {
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.fadeout_ul {
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.card-ul-fadeout:hover .fadeout_ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    list-style: none;
+    animation: fadeInUp;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.3s;
+}
+
+
+/* .card_fade_out_parent:hover . {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    list-style: none;
+    animation: fadeInUp;
+    animation-duration: 0.3s;
+} */
+
+
+/* card_latest_bloge */
+
+.card-img-top,
+.list-icon,
+.progress-bar,
+h5,
+h6 i,
+.small_li {
+    transition: 0.5s;
+}
+
+.list-icon {
+    background-color: black;
+}
+
+.progress-bar {
+    width: 25%;
+}
+
+.card_latest_bloge:hover .card-img-top {
+    transform: rotate(-5deg) scale(1.1);
+}
+
+.card_latest_bloge:hover .list-icon {
+    background-color: rgb(51, 51, 240);
+}
+
+.card_latest_bloge:hover .progress-bar {
     width: 100%;
-    height: 100%;
-} */
+}
 
+.card_latest_bloge h5:hover,
+.card_latest_bloge .small_li:hover {
+    color: rgb(51, 51, 240);
+}
 
-/* .carousel-indicators button {
-    width: 20px;
-    height: 20px;
-
-    
-    top: 0%;
-    left: 100%;
-    background: white;
-    display: block;
-
-} */
+.card_latest_bloge h6:hover .i_arrow {
+    padding-left: 10px;
+}
