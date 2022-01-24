@@ -1,3 +1,11 @@
+@media (min-width:1140px) {
+    .Abslute-card {
+        position: absolute;
+        left: 0;
+        top: 11%;
+    }
+}
+
 .white-font {
     color: white;
 }
@@ -14,6 +22,9 @@
     background: rgb(48, 47, 47);
 }
 
+
+/* main header */
+
 .position-sticky.top-0 {
     background-color: white;
 }
@@ -26,6 +37,24 @@
 .dropdown-toggle::after {
     display: none !important;
 }
+
+.show-li-ul:hover .show-ul {
+    top: -3%;
+    right: 100%;
+    background: white;
+    display: block;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+
+.drop-down-parent:hover .dropdown-menu-parent {
+    display: block;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+
+
+/* carousel section */
 
 .carousel-item img {
     height: 500px;
@@ -67,22 +96,15 @@
     height: 70px;
 }
 
-.show-li-ul:hover .show-ul {
-    top: -3%;
-    right: 100%;
-    background: white;
-    display: block;
-    animation: fadeInLeft;
-    /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s;
-    /* don't forget to set a duration! */
+
+/* //about us hover */
+
+.card_hover:hover .blue_hover {
+    color: rgb(51, 51, 240);
 }
 
-.drop-down-parent:hover .dropdown-menu-parent {
-    display: block;
-    animation: fadeInLeft;
-    animation-duration: 1s;
-}
+
+/* card-group-bg-fixed-img */
 
 .bd-icone {
     width: 80px;
@@ -110,11 +132,9 @@
     width: 100%;
     color: white;
     text-align: center;
-    /* display: table; */
-    /* background-origin: border-box; */
 }
 
-.card-abslute1 {
+.card-abslute {
     position: absolute;
     top: 100%;
     left: 0;
@@ -123,7 +143,7 @@
     transition: 0.3s;
 }
 
-.parent_card_fadeout1:hover .card-abslute1 {
+.parent_card_fadeout:hover .card-abslute {
     top: 0;
     opacity: 1;
 }
@@ -152,6 +172,7 @@
 }
 
 .border-sty {
+    box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-color: black;
     border-width: 3px;
@@ -163,12 +184,14 @@
 
 .col_card_fadeout:hover .card_ul_fadeout {
     top: 40%;
+    bottom: 0;
     opacity: 1;
 }
 
 .card_ul_fadeout:hover .fadeout_ul {
     top: 80%;
     opacity: 1;
+    bottom: 0;
 }
 
 
@@ -210,4 +233,11 @@ h6 i,
 
 .card_latest_bloge h6:hover .i_arrow {
     padding-left: 10px;
+}
+
+
+/* footer */
+
+.light_top_shadow {
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
 }
