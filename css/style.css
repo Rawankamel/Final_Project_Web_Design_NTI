@@ -165,14 +165,13 @@
 
 .card_ul_fadeout {
     position: absolute;
-    top: 79%;
+    top: 78.5%;
     left: 0;
     z-index: 1;
     transition: 0.3s;
 }
 
 .border-sty {
-    box-sizing: border-box;
     border-bottom-style: solid;
     border-bottom-color: black;
     border-width: 3px;
@@ -182,10 +181,21 @@
     border-width: 0px;
 }
 
+.border-sty2 {
+    border-top-style: solid;
+    border-top-color: black;
+    border-width: 3px;
+    transition: 0.1s;
+}
+
 .col_card_fadeout:hover .card_ul_fadeout {
     top: 40%;
     bottom: 0;
     opacity: 1;
+}
+
+.col_card_fadeout:hover .border-sty2 {
+    border-width: 0px;
 }
 
 .card_ul_fadeout:hover .fadeout_ul {
