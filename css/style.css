@@ -16,6 +16,11 @@
     z-index: 4000;
 }
 
+.setting_class {
+    top: 40%;
+    z-index: 4000;
+}
+
 .white-font {
     color: white;
 }
@@ -48,8 +53,15 @@
     display: none !important;
 }
 
-.show-li-ul:hover .show-ul {
+.show-li-ul:hover .top_3 {
     top: -3%;
+}
+
+.show-li-ul:hover .top_1 {
+    top: -1.5%;
+}
+
+.show-li-ul:hover .show-ul {
     right: 100%;
     background: white;
     display: block;
@@ -61,6 +73,20 @@
     display: block;
     animation: fadeInLeft;
     animation-duration: 1s;
+}
+
+tr,
+td {
+    border-style: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(51, 51, 240);
+}
+
+.dropdown-item:hover {
+    color: rgb(51, 51, 240);
+    background-color: transparent;
 }
 
 
