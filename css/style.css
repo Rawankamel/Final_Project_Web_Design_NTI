@@ -4,6 +4,16 @@
         left: 0;
         top: 11%;
     }
+    .lg_pos_Abslute {
+        position: absolute;
+        top: 26%;
+    }
+}
+
+.up_link {
+    float: right;
+    top: 85%;
+    z-index: 4000;
 }
 
 .white-font {
@@ -149,6 +159,42 @@
 }
 
 
+/* our_Work */
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-tabs .nav-link.active {
+    color: #1c7cdb;
+}
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+}
+
+.flipping_card {
+    top: 75%;
+    left: 16%;
+    background-color: #006cffb5;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 0.3s linear 0s;
+}
+
+.parent_card {
+    transition: 0.3s;
+}
+
+.parent_card:hover .flipping_card {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.parent_card:hover {
+    box-shadow: 0 4px 8px 0 rgba(133, 130, 130, 0.6), 0 6px 20px 0 rgba(133, 130, 130, 0.6);
+}
+
+
 /*Our_Creative_Team*/
 
 .img-shadw {
@@ -202,6 +248,13 @@
     top: 80%;
     opacity: 1;
     bottom: 0;
+}
+
+
+/* Testimonial */
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
 }
 
 
