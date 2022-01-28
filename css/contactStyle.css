@@ -1,0 +1,30 @@
+    .img_contact {
+        background-image: url(../images/slider1.jpg);
+        background-position: top right;
+        background-size: cover;
+        height: 400px;
+    }
+    
+    .overlay {
+        background-color: rgba(10, 10, 10, 0.637);
+        background-size: 100% 100%;
+    }
+    
+    .overlay2 {
+        background-color: rgba(0, 0, 0, 0.637);
+        background-size: 100% 100%;
+    }
+    
+    .form-control:focus {
+        border-bottom-style: solid;
+        border-bottom-color: rgba(47, 0, 255, 0.699);
+        border-width: 3px;
+        color: #212529;
+        background-color: #fff;
+        outline: 0;
+        box-shadow: none;
+    }
+    
+    form input ::placeholder {
+        padding-left: 100px;
+    }
