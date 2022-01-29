@@ -329,6 +329,16 @@ h6 i,
     rotate: 40deg;
 }
 
+.bg-darkgray .btn-light:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 240);
+    border-color: rgb(51, 51, 240);
+}
+
+.muted_hover:hover {
+    color: #6c757d;
+}
+
 
 /* footer */
 
