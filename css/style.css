@@ -336,7 +336,8 @@ h6 i,
 }
 
 .muted_hover:hover {
-    color: #6c757d;
+    color: #6c757d !important;
+    transition: 0.3s;
 }
 
 
@@ -344,4 +345,8 @@ h6 i,
 
 .light_top_shadow {
     box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+.footer_img {
+    height: 100px;
 }
