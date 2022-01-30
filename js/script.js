@@ -97,11 +97,21 @@ form.addEventListener("submit", function(e) {
     e.preventDefault()
 })
 
-var form_control = document.getElementsByClassName("form-control");
+var form_control = document.getElementsByClassName("VAL");
+var alert = document.getElementsByClassName("alert")
 var p = document.getElementById("verfied_class_P")
 
-function verfied(this) {
+function verfied() {
     for (var i = 0; i <= 2; i++) {
+        if (alert[i].innerText == "") {
+            form_control[i].status = true
+            p.style.color = "green"
+            p.innerText = "its verified"
+        } else {
+            form_control[i].status = false
+            p.style.color = "red"
+            p.innerText = "there is an error in form validatuon"
+        }
 
     }
 }
