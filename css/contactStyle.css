@@ -5,6 +5,10 @@
         height: 400px;
     }
     
+    #topBtn {
+        display: none;
+    }
+    
     .overlay {
         background-color: rgba(10, 10, 10, 0.637);
         background-size: 100% 100%;
@@ -31,4 +35,10 @@
     
     form textarea {
         height: 200px;
+    }
+    
+    .Position_Abs_i {
+        position: absolute;
+        top: 10px;
+        z-index: 1;
     }

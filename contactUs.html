@@ -37,7 +37,7 @@
 
     <!--Main_header-->
 
-    <nav class="navbar navbar-expand-lg navbar-light position-sticky top-0 shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" id="main_header">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/Trade-X-Logo.png" alt="Tradex_logo"></a>
 
@@ -240,7 +240,7 @@
         </a>
     </div>
     <!-- up -->
-    <div class="rounded-circle position-sticky up_link ">
+    <div class="rounded-circle position-sticky up_link" id="topBtn">
         <a href="#top " class="text-primary p-5 "> <i class="fas fa-chevron-circle-up display-5 "></i></a>
     </div>
     <!-- Contact Info -->
@@ -290,26 +290,31 @@
                 <hr class="border border-1 border-primary w-100 opacity-100 ">
             </div>
         </div>
-        <form class="row g-3 py-4">
+        <form class="row g-3 py-4" id="myForm">
             <div class="col-12 col-md-4 position-relative">
-                <i class="fas fa-user-alt position-absolute bottom-0 pb-2"></i>
-                <input type="text" class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" id="inputName" placeholder="Name">
+                <i class="fas fa-user-alt Position_Abs_i pb-2"></i>
+                <input type="text" class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" name="inputName" id="inputName" placeholder="Name">
+                <p class="text-danger mb-0"></p>
             </div>
             <div class="col-12 col-md-4 position-relative">
-                <i class="far fa-envelope position-absolute bottom-0 pb-2"></i>
-                <input type="email" class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" id="inputEmail" placeholder="Email">
+                <i class="far fa-envelope Position_Abs_i pb-2"></i>
+                <input type="email" class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" name="inputEmail" id="inputEmail" placeholder="Email">
+                <p class="text-danger mb-0"></p>
             </div>
             <div class="col-12 col-md-4 position-relative">
-                <i class="fas fa-pen position-absolute bottom-0 pb-2"></i>
-                <input type="text" class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" id="inputSubject" placeholder="Subject">
+                <i class="fas fa-pen Position_Abs_i pb-2"></i>
+                <input type="password" class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" name="inputPassword" id="inputPassword" placeholder="Password">
+                <p class="text-danger mb-0"></p>
             </div>
             <div class="col-12 position-relative">
                 <i class="fas fa-pen position-absolute top-0 pt-2"></i>
-                <textarea class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" placeholder="Your Massage"></textarea>
+                <textarea class="form-control ps-4 rounded-0 border-0 border-bottom border-1 border-secondary" placeholder="Your Massage" name="inputMessage" id="inputMessage"></textarea>
             </div>
 
             <div class="col-12">
-                <button type="submit" class="btn btn-primary rounded-pill">Send Message</button>
+                <input type="submit" class="btn btn-primary rounded-pill" value="Send Message" onclick="verfied(this)">
+                <p class=" text-danger mb-0" id="verfied_class_P"></p>
+                <!-- <button type="submit ">Send Message</button> -->
             </div>
         </form>
     </div>
@@ -319,7 +324,7 @@
             <div class="row py-5 justify-content-between ">
                 <div class="col-12 col-md-7 align-self-center position-relative ">
                     <h3 class="white-font lg_pos_Abslute ">If You Like This Grate Work ?? For You Site...</h3>
-                    <i class="fas fa-phone-volume d-none d-xl-block display-1 h-100 phone"></i>
+                    <i class="fas fa-phone-volume d-none d-xl-block display-1 h-100 phone "></i>
                 </div>
                 <div class="col-12 col-md-3 align-self-center ">
                     <button type="button " class="btn btn-light rounded-pill w-100 h-50 ">Purchase Now</button>
@@ -347,25 +352,25 @@
 
                     <h4 class="text-light ">Posts</h4>
                     <hr class="border border-1 border-primary w-25 opacity-100 ">
-                    <div class="row footer_img">
+                    <div class="row footer_img ">
                         <div class="col-3 ">
-                            <img src="images/bg3-360x260.jpg " class="img-fluid h-75 w-100" alt="meeting img ">
+                            <img src="images/bg3-360x260.jpg " class="img-fluid h-75 w-100 " alt="meeting img ">
                         </div>
                         <div class="col-8 ">
 
-                            <h6 class="card-title text-light muted_hover">Four ways to cheer and plan your self up on Blue</h6>
+                            <h6 class="card-title text-light muted_hover ">Four ways to cheer and plan your self up on Blue</h6>
                             <p class="card-text "><small class="text-muted "><i class="fas fa-calendar-alt "></i>19 Dec 2018</small></p>
 
                         </div>
                     </div>
                     <hr class="border border-1 border-secondary w-100 opacity-100 ">
-                    <div class="row footer_img">
+                    <div class="row footer_img ">
                         <div class="col-3 ">
-                            <img src="images/gallery2-1.png " class="img-fluid h-75 w-100" alt="meeting img ">
+                            <img src="images/gallery2-1.png " class="img-fluid h-75 w-100 " alt="meeting img ">
                         </div>
                         <div class="col-8 ">
 
-                            <h6 class="card-title text-light muted_hover">Four ways to cheer and plan your self up on Blue</h6>
+                            <h6 class="card-title text-light muted_hover ">Four ways to cheer and plan your self up on Blue</h6>
                             <p class="card-text "><small class="text-muted "><i class="fas fa-calendar-alt "></i>19 Dec 2018</small></p>
 
                         </div>
